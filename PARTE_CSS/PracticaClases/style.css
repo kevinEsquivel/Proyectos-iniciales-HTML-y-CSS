@@ -1,0 +1,16 @@
+/*Elemento de html*/
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/*CLASS*/
+.parrafo{
+    color: brown;
+    font-size: 24px;
+}
+/* por ID */
+#texto{
+    color: chartreuse;
+
+}

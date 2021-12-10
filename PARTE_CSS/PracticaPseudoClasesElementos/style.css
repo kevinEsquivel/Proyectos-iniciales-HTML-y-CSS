@@ -1,0 +1,31 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0px;
+    background-color: darkcyan;
+}
+.main-nav__item{
+    display: inline-block;
+
+}
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+/*pseudo CLASES = Define el estilo de un estado especial de un elemento (https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes)*/
+/*Hover->cuando el mouse esta arriba del elemento*/
+.main-nav__item a:hover{
+    color: red;
+}
+/*Cuando se aciva se pone el color*/
+.main-nav__item a:active{
+    color: blue;
+}
+
+/*Pseudo ELEMENTOS = Define el estilo de una parte especific de un elemento (https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements)*/
+/*Despues del el elemento agrega esto*/
+.main-nav__item a::after{
+    content: " | ";
+}
+
