@@ -1,52 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista Compra</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Lista de compra de la semana</h1>
-    <Ul>
-        <li>Fruta 
-            <ol>
-                <li>Manzanas </li>
-                <img src="./img/manzana.jpg" alt="Imagen de manzana">
+    <ul>
+      <li>
+        Fruta
+        <ol>
+          <li>Manzanas</li>
+          <img src="./img/manzana.jpg" alt="Imagen de manzana" />
 
-                <li>
-                    <a href="https://www.google.com/search?q=pay+de+pera&oq=pay+de+pera&aqs=chrome..69i57.1686j0j1&sourceid=chrome&ie=UTF-8">Pera</a>
-                    <!--El figure se usa en lugar de los div para las imagenes es mejor semanticamente
+          <li>
+            <a
+              href="https://www.google.com/search?q=pay+de+pera&oq=pay+de+pera&aqs=chrome..69i57.1686j0j1&sourceid=chrome&ie=UTF-8"
+              >Pera</a
+            >
+            <!--El figure se usa en lugar de los div para las imagenes es mejor semanticamente
                     Ademas el figcaption es para agregar un pie a las imagenes-->
-                    <figure>
-                        <img src="./img/Pera.jfif" alt="Imagen de Pera">
-                        <figcaption>Imagen de pera</figcaption>
-                    </figure>
-                    
-                </li>
-            </ol>
-        </li>
-        <li>Verdura 
-            <ol>
-                <li>Brocolí </li>
+            <section>
+              <figure>
+                <img src="./img/Pera.jfif" alt="Imagen de Pera" />
+                <figcaption>Imagen de pera</figcaption>
+              </figure>
+            </section>
+          </li>
+        </ol>
+      </li>
+      <li>
+        Verdura
+        <ol>
+          <li>Brocolí</li>
 
-                <img src="./img/Brocoli.jfif" alt="Imagen de Brocoli">
-                <li>Calabazín </li>
-                <img src="./img/Calabazin.jpg" alt="Imagen de Calabazin">
-                <li>Coliflor </li>
-                <img src="./img/Coliflor.jpg" alt="Imagen de Coliflor">
-            </ol>
-        </li>
-        <li>Carne 
-            <ol>
-                <li>Pollo </li>
-                <img src="./img/Pllo.jpg" alt="Imagen de Pollo">
-                <li>Pesacado </li>
-                <img src="./img/Pescado.jfif" alt="Imagen de Pescado">
-                <li>Atún </li>
-                <img src="./img/Atun.jpg" alt="Imagen de Atun">
-            </ol>
-        </li>
-    </Ul>
-</body>
+          <img src="./img/Brocoli.jfif" alt="Imagen de Brocoli" />
+          <li>Calabazín</li>
+          <img src="./img/Calabazin.jpg" alt="Imagen de Calabazin" />
+          <li>Coliflor</li>
+          <img src="./img/Coliflor.jpg" alt="Imagen de Coliflor" />
+        </ol>
+      </li>
+      <li>
+        Carne
+        <ol>
+          <li>Pollo</li>
+          <img src="./img/Pllo.jpg" alt="Imagen de Pollo" />
+          <li>Pesacado</li>
+          <img src="./img/Pescado.jfif" alt="Imagen de Pescado" />
+          <li>Atún</li>
+          <img src="./img/Atun.jpg" alt="Imagen de Atun" />
+        </ol>
+      </li>
+    </ul>
+
+    <!--
+        SECCTION para agregar un video,controls para poder controlar el video, 
+        preload  para que el navegador empieze a descargar el video desde antes,
+        #t=(SegEmpezar)(SegTerminar),
+        SUORCE para poner diferentes formatos de videos por si el navegador no reconoce algun tipo
+    -->
+    <section>
+        <video  controls preload="auto">
+            <source src="./CVideo/Por Una Cabeza (Carlos Gardel) Tango Piano by Sangah Noona w- Sheet Music.mp4#t=5,60" />
+            <source src="./CVideo/Por Una Cabeza (Carlos Gardel) Tango Piano by Sangah Noona w- Sheet Music.mvi#t=5,60" />
+        </video>
+    </section>
+  </body>
 </html>
