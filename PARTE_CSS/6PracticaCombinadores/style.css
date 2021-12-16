@@ -1,0 +1,21 @@
+/* h2 + p{
+      /*aplicar color rojo a toda etiqueta P que este cerca de un H2 
+
+    color:red;
+}
+h2 ~ p{ 
+    /* aplicar AZUL a todo parrafo si un h2 esta antes,
+     por eso el primer parrafo no tiene azul, porque no hay un h2
+      antes que el 
+    color: blue;
+} */
+
+div > p{
+    /* el parrafo  sea hijo directo de un div */
+    color: blueviolet;
+}
+
+div h2 {
+    /* Todas las h2 que esten drento de un div */
+    color: chartreuse;
+}
