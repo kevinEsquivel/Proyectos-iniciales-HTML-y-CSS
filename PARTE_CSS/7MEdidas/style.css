@@ -1,0 +1,39 @@
+/* main{
+    background-color: red;
+    width: 600px;
+    height: 500px;
+}
+p{
+    font-size: 16px;
+} */
+
+/* EM = es un acronimo de elemento y 
+lo que hace es tomar el tamaño de fuente 
+que tenga el padre directo  
+EJEMPLO tamaño es 20=1em entonces 1.5em=20*1.5=30px
+body{
+    font-size: 20px;
+}
+.text-container{
+    font-size: 1.5em;
+}
+/* Da 2 tamaños porque toma del padre irecto en ete caso seria 30=1em 
+   entonces 1.5=30*1.5em=45px
+.text-container div{
+    font-size: 1.5em;
+
+}
+
+/* REM */
+/* rem siempre tendra referencia al root del proyecto, 
+    que tenga el navegador */
+html{
+    font-size: 62.5%;
+}
+/*En esto estoy haciendo que 1.6rem=16px, por lo que 2rem=20px*/
+p{
+    font-size: 1rem;
+}
+main div{
+    font-size: 1rem;
+}
