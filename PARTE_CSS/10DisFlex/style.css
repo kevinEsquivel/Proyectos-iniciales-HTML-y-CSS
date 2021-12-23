@@ -10,8 +10,10 @@ body{
     font-size: 1.6rem;
 }
 .container{
+    /* height: 50vh; */
     border: 0.3rem solid black;
     display: flex;
+    flex-wrap: wrap;
     /*Mini guía de flexbox:
 
 Propiedades en contenedores padre:
@@ -30,12 +32,14 @@ aling-content: flex-star | flex-end | center | stretch | space-around | space-be
 Propiedades en elemento hijo
 
 order: ; Esto se utiliza para cambiar el orden de nuestros elementos sin cambiar el orden real semantico y correcto de html. Sencillamente colocando números.
-
+flex-grow: ; Esto es para aumentar las cosas e espacios
 aling-self: aling-items: flex-star | flex-end | center | stretch | baseline “Muy importante, si en el padre del elemento tiene declarado flex-direccion:row; esta propiedad lo acomodara verticalmente. Y si es flex.direccion: column lo ordenara horizontalmente”*/
 }
 .box{
-    width: 10rem;
+    /* width: 10rem; */
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 .box1{
     background-color: blue;
