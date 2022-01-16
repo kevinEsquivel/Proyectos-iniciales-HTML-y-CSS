@@ -1,137 +1,163 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    width: 100%;
-    height: 60px;
-}
-
-header nav{
-    display: flex;
-    justify-content: flex-end;
-}
-header nav .nav-right-section{
-    width: 250px;
-    height: auto;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    
-}
-nav .nav-right-section li a{
-    color: black;
-    margin-left: 15px;
-}
-a{
-    text-decoration: none; 
-    cursor:pointer ;/*PAra que al pasar el mouse se muestre subrallado*/
-}
-a:hover{
-    text-decoration: underline;
+header {
+  width: 100%;
+  height: 60px;
 }
 
-nav .nav-right-section .menu-icon{
-    background-image: url('https://static.thenounproject.com/png/756729-200.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -5px;
-    margin-left: 20px;
-    width: 25px;
-    height: 25px;
+header nav {
+  display: flex;
+  justify-content: flex-end;
 }
-nav .nav-right-section img{
-    border-radius: 50px;
-    margin-top: 5px;
-    margin-left: 10px;
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
-main{
-    margin-top: 150px;
-    text-align: center;
+nav .nav-right-section li a {
+  color: black;
+  margin-left: 15px;
 }
-main .main-logo{
-    width: 530px;
-    margin: 0 auto;
-    margin-bottom: 35px;
-
+a {
+  text-decoration: none;
+  cursor: pointer; /*PAra que al pasar el mouse se muestre subrallado*/
 }
-main .main-logo img{
-    width: 300px;
-}
-main .main-input{
-    width: 530px;
-    margin: 0 auto;
-    margin-bottom: 35px;
-}
-main .main-input-container{
-    width: 525px;
-    border-radius: 50px;
-    border: 1px solid #dfe1e5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+a:hover {
+  text-decoration: underline;
 }
 
-main .main-input input{
-    width: 450px;
-    height: 40px;
-    border: none;
-    outline: none;
+nav .nav-right-section .menu-icon {
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -5px;
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
 }
-main .main-input-container:hover{
-    box-shadow: 0 1px 6px 0 #20212447 ; /* genera sobra al elemento */
-    border-color: #dfe1e500;
+nav .nav-right-section img {
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 10px;
 }
-main .main-input .search-icon{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-
+main {
+  margin-top: 150px;
+  text-align: center;
 }
-main .main-input .micro-icon{
-    background-image: url('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052018/untitled-1_63.png?VaW1bs_mipmverkoNocEJNL6BKTHYW.R&itok=ThO1Yh_H');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
-
-main .main-buttons{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: 40px;
+main .main-logo img {
+  width: 300px;
 }
-main .main-buttons button{
-    height: 34px;
-    width: 150px;
-    margin: 11px;
-    background: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 5px;
-    color: #3c4043;
-    
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
-main .main-buttons button:hover{
-    box-shadow: 0 1px 6px 0 #20212447 ; /* genera sobra al elemento */
-    border-color: #dfe1e500;
+main .main-input-container {
+  width: 525px;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447; /* genera sobra al elemento */
+  border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+main .main-input .micro-icon {
+  background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052018/untitled-1_63.png?VaW1bs_mipmverkoNocEJNL6BKTHYW.R&itok=ThO1Yh_H");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+main .main-buttons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 40px;
+}
+main .main-buttons button {
+  height: 34px;
+  width: 150px;
+  margin: 11px;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+  color: #3c4043;
+}
+main .main-buttons button:hover {
+  box-shadow: 0 1px 6px 0 #20212447; /* genera sobra al elemento */
+  border-color: #dfe1e500;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  /* con esto aseguramos que el footer este al final de la pagina */
+  position: absolute;
+  bottom: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+footer .footer-left {
+  justify-self: left;
+}
+footer .footer-right {
+  justify-self: right;
+}
+footer ul li a {
+  margin: 10px;
+  color: #5f6368;
+}
