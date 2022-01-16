@@ -1,3 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+nav .nav-right-section li a{
+    color: black;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none; 
+    cursor:pointer ;/*PAra que al pasar el mouse se muestre subrallado*/
+}
+a:hover{
+    text-decoration: underline;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img{
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 main{
     margin-top: 150px;
     text-align: center;
@@ -77,3 +134,4 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 6px 0 #20212447 ; /* genera sobra al elemento */
     border-color: #dfe1e500;
 }
+
