@@ -1,12 +1,157 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    font-size: 62.5%;
-  }
-  body {
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .main-section-wiki {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+main .main-section-wiki span {
+  font-size: 3.6rem;
+}
+main .main-section-wiki p {
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+main .main-section-idioms {
+  text-align: center;
+  margin-top: 60px;
+}
+main section div img {
+  height: 21rem;
+  width: 21rem;
+}
+main .main-section-idioms p {
+  color: #808183;
+  margin-top: 5px;
+}
+a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #3366cc;
+  text-decoration: none;
+}
+main .main-section-idiom-esp {
+  position: relative;
+  top: -250px;
+  left: -150px;
+}
+#section-idioms {
+  height: 30rem;
+}
+main .main-section-idiom-en {
+  position: relative;
+  top: -290px;
+  left: 150px;
+}
+main .main-section-idiom-ch {
+  position: relative;
+  top: -270px;
+  left: -208px;
+}
+main .main-section-idiom-rus {
+  position: relative;
+  top: -312px;
+  left: 205px;
+}
+main .main-section-idiom-ale {
+  position: relative;
+  top: -290px;
+  left: -225px;
+}
+main .main-section-idiom-fr {
+  position: relative;
+  top: -330px;
+  left: 215px;
+}
+main .main-section-idiom-jap {
+  position: relative;
+  top: -305px;
+  left: -200px;
+}
+main .main-section-idiom-it {
+  position: relative;
+  top: -347px;
+  left: 190px;
+}
+main .main-section-idiom-por {
+  position: relative;
+  top: -320px;
+  left: -130px;
+}
+main .main-section-idiom-pol {
+  position: relative;
+  top: -361px;
+  left: 130px;
+}
+#section-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .main-section-search {
+  justify-content: center;
+  display: flex;
+  height: 4.4rem;
+  width: 44.0rem;
+  border-radius:3px ;
+  border: 1px solid rgb(192, 192, 192);
+}
+main section .main-section-search input{
+  width: 40rem;
+  margin-left: 5px;
+  border: none;
+}
+main section .main-section-search div{
+  background: #36c;
+  height: 4.4rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .main-section-search div img{
+  width: 20px;
+  height: 20px;
+}
+main section .main-section-leer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50px;
+  
+}
+main .main-section-leer span{
+  color:rgb(192, 192, 192) ;
+  font-weight: bold;
+  margin-right: 20px;
+}
+main .leer-traductor{
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .main-section-leer button{
+  margin-right: 20px;
+  height: 35px;
+  width: 25rem;
+  font-size: 1.4rem;
+  background: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #36c;
+  border: 1px solid rgb(192, 192, 192);
+}
