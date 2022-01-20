@@ -1,0 +1,18 @@
+.contenedor {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: 100px 200px 300px;
+  grid-template-rows: 150px 250px; /*Habra 2 renglones uno de 150 y 250*/
+  grid-auto-rows: 150px;
+  /* grid-auto-columns: 150px ; */ /*Ahora las columnas tendran un espacio de 100*/
+  grid-auto-flow: column; /*Como hay espacio al final ahi los agrega*/
+  /* row-gap: 5px; */ /*Tamaño de la brecha entre renglones, y solo entre renglones*/
+  /* column-gap: 15px; */ /*Tamaño de la brecha entre columnas, y solo entre columnas*/
+  gap: 10px ; /*espaciado entre columnas y renglones por igual*/
+
+}
+.item {
+  border: 5px solid #00bcd4;
+  font-size: 4rem;
+}
