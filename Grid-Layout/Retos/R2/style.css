@@ -1,0 +1,19 @@
+.contenedor{
+    border:  2px solid black;
+    background: greenyellow;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 180px 180px;
+    height: 600px;
+    width: 600px;
+    place-content: center;
+    place-items: end;
+}
+.item{
+    
+    width: 25px;
+    height: 40px;
+    border:  2px solid black;
+    background: grey;
+}
