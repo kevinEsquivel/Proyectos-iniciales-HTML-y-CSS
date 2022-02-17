@@ -1,0 +1,46 @@
+.contenedor{
+    border: 5px solid #0000;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px;
+    place-content: center;
+    
+}
+.item1{
+    background-color:wheat ;
+    border: 5px solid #0000;
+    
+}
+.item2{
+    background-color: teal;
+    border: 5px solid #0000;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}
+.item3{
+    background-color:rgb(27, 167, 132);
+    border: 5px solid #0000;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item4{
+    background-color:rgb(4, 199, 4) ;
+    border: 5px solid #0000;
+}
+.item5{
+    background-color:green ;
+    border: 5px solid #0000;
+    
+}
+.item6{
+    background-color:rgb(41, 172, 50) ;
+    border: 5px solid #0000;
+    
+}
+.item7{
+    background-color:rgb(125, 172, 125);
+    border: 5px solid #0000;
+    
+}

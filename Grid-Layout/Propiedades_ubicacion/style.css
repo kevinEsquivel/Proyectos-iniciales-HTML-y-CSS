@@ -1,0 +1,36 @@
+.contenedor{
+    border: 5px solid #eb1ee7;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-areas: 
+    "header header header"
+    "side main main"
+    "side main main"; /* Se le adinara un nombre a cada item que tenga */
+    place-content: center;
+}
+.item-1{
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    grid-area: header;
+    /* grid-column-start: 1; /* inicia el la linea 1 
+    grid-column-end:4; /* finaliza en la linea 4, como esta dividido en 3 las lineas son 4 */ */
+}
+.item-2{
+    border: 5px solid #4b343c;
+    background-color: #fff1ff;
+    grid-area: side;
+    /* grid-column-start:1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4; se puede simpliicar con grid-row*/
+    /* grid-row: 2/4; */
+
+}
+.item-3{
+    border: 5px solid #d8185b;
+    background-color: #e5ffff;
+    grid-area: main;
+    /* grid-area:2/2/4/4 ;/* Se usa cuando, es filas y columnas, orden fila comienzo/columna comienza/fila termina/columna termina */ */
+}
