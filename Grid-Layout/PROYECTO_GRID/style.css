@@ -1,0 +1,83 @@
+* {
+  font-family: "Roboto", "sans-serif";
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero {
+  display: grid;
+  
+  grid-template-columns: 2fr 3fr;
+  grid-auto-rows: 400px;
+}
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /*Sirve para que la imagen siempre se vea completa*/
+}
+.info {
+  align-self: center;
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color:  #FF8E00;
+}
+button:hover{
+    background: #fab057;
+}
+.service{
+    margin: 100px 0;
+}
+.service-title{
+    color:#333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+.service-grid {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(4,minmax(150px,200px));
+  grid-auto-rows: 1fr;
+  gap: 15px;
+  justify-content: center;
+  
+}
+.service img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video{
+    grid-area:1/1/3/3;
+}
+
+.home{
+    margin: 100px 0;
+}
+.home-title{
+    color: rgb(141, 140, 140);
+    text-align: center;
+}
+.home-grid{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(5,minmax(100px,150px));
+    
+    
+}
+.home-grid img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 166, 134);
+    border-top-left-radius: 30px;
+}
+.home-grid img:hover{
+ filter: drop-shadow(1px/*Eje Y*/ 3px/*Eje x*/ 5px/*Dispercion de la sombra*/ rgba(0,0,0,0.7));   /*AGREGA IN EFECTO DE SOMBRA Y CON EL HOVER ES PERFECTO*/
+}

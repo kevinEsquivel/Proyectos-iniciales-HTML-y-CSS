@@ -15,7 +15,7 @@
     background-color: #ffeeff;
     grid-area: header;
     /* grid-column-start: 1; /* inicia el la linea 1 
-    grid-column-end:4; /* finaliza en la linea 4, como esta dividido en 3 las lineas son 4 */ */
+    grid-column-end:4; /* finaliza en la linea 4, como esta dividido en 3 las lineas son 4 */ 
 }
 .item-2{
     border: 5px solid #4b343c;
@@ -32,5 +32,5 @@
     border: 5px solid #d8185b;
     background-color: #e5ffff;
     grid-area: main;
-    /* grid-area:2/2/4/4 ;/* Se usa cuando, es filas y columnas, orden fila comienzo/columna comienza/fila termina/columna termina */ */
+    /* grid-area:2/2/4/4 ;/* Se usa cuando, es filas y columnas, orden fila comienzo/columna comienza/fila termina/columna termina */ 
 }

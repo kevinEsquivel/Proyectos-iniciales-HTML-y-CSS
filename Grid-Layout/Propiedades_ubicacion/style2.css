@@ -1,0 +1,12 @@
+.contenedor{
+    border: 5px solid #e1bee7 ;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(30px,300px) 200px minmax(60px,250px); /* minima de 30px maxima de 300 */
+    grid-template-columns: repeat(3,auto);/* se repetira 3 veces el auto, de acuerod ela texto que tenga */
+}
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
+
