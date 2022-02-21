@@ -8,7 +8,7 @@ main {
 .hero {
   display: grid;
   
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: minmax(300px,2fr) 3fr;
   grid-auto-rows: 400px;
 }
 .hero-image {
@@ -80,4 +80,22 @@ button:hover{
 }
 .home-grid img:hover{
  filter: drop-shadow(1px/*Eje Y*/ 3px/*Eje x*/ 5px/*Dispercion de la sombra*/ rgba(0,0,0,0.7));   /*AGREGA IN EFECTO DE SOMBRA Y CON EL HOVER ES PERFECTO*/
+}
+@media screen and (max-width: 768px){
+    .hero{
+        grid-template-columns: minmax(300px,500px);
+        justify-content: center;
+    }
+    .hero-image{
+        display: none;
+    }
+    .service{
+        margin: 30px 0;
+    }
+    .service-grid{
+        grid-template-columns: repeat(auto-fit,minmax(150px,200px));
+    }
+    .home-grid{
+        display: grid; gap: 10px; align-content: center; height: 800px; grid-template-columns: minmax(50px, 100px) minmax(100px, auto); grid-auto-rows: 50px;
+    }
 }
