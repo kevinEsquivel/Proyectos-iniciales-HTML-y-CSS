@@ -5,31 +5,60 @@
 4.-Visuales
 5.-Otros...
 */
-:root{
-    /*Variables Colores*/
-    --bitcoin-orange: #F7931A;
-    --soft-orange:#FFE9D5;
-    --secundary-blue:#1A9AF7;
-    --soft-blue:#E7F5FF;
-    --warm-black:#201E1C;
-    --grey:#BABABA;
-    --off-white:#FAF8F7;
-    --just-white:#FFFFFF;
+:root {
+  /*Variables Colores*/
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secundary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-html{
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* font-family: 'DM Sans', sans-serif;
     font-family: 'Inter', sans-serif; */
-.main--exchange-container{
-    
-    
-    
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main--exchange-container {
+    width: 100%;
+    height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.main--exchange-container .backgroundImg {
+  margin-top: 4rem;
+  align-self: center;
+  width: 19.5rem;
+  height: 19.5rem;
+}
+.main--exchange-container-title h2 {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+.main--exchange-container-title p {
+  margin-top: 2.4rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #757575;
 }
