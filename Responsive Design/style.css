@@ -70,7 +70,7 @@ header img {
 .header--title-container .header--button {
   position: absolute; /*Moverme en arrebia abajo izquierda derecha*/
   top: 270px;
-  left: 45.5px;
+  left: calc(50% - 115px);
   display: block;
   margin-top: 25px;
   padding: 15px;
@@ -113,6 +113,7 @@ main {
   width: 19.5rem;
   height: 19.5rem;
 }
+
 .main--exchange-container-title h2 {
   margin-top: 40px;
   font-weight: bold;
