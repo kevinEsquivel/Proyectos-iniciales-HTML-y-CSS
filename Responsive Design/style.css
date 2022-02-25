@@ -69,7 +69,7 @@ header img {
 /*Boton flotante*/
 .header--title-container .header--button {
   position: absolute; /*Moverme en arrebia abajo izquierda derecha*/
-  top: 270px;
+  top: 285px;
   left: calc(50% - 115px);
   display: block;
   margin-top: 25px;
@@ -251,18 +251,18 @@ main {
   text-align: start;
 }
 .main-comparacion-tarjeta span {
-    width: 20px;
-    height: 20px;
-   margin-left: 18px;
-   margin-top: 16px;
+  width: 20px;
+  height: 20px;
+  margin-left: 18px;
+  margin-top: 16px;
 }
 .main-comparacion-tarjeta h3 {
   color: var(--just-white);
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 1.8rem;
- margin-top: 12px;
- margin-left: 16px;
+  margin-top: 12px;
+  margin-left: 16px;
 }
 .main-comparacion-tarjeta p {
   color: #808080;
@@ -277,29 +277,28 @@ main {
   line-height: 1.8rem;
 }
 .main-comparacion-tarjeta .main-tarjeta-span1 {
-    display: inline-block;
+  display: inline-block;
   background-image: url("./assets/icons/clock.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
 .main-comparacion-tarjeta .main-tarjeta-span2 {
-    display: inline-block;
+  display: inline-block;
   background-image: url("./assets/icons/eye.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .main-comparacion-tarjeta .main-tarjeta-span3 {
-    display: inline-block;
+  display: inline-block;
   background-image: url("./assets/icons/dollar-sign.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .main-comparacion-tarjeta .main-tarjeta-span4 {
-    display: inline-block;
+  display: inline-block;
   background-image: url("./assets/icons/check-circle.svg");
   background-size: cover;
   background-position: center;
@@ -307,14 +306,132 @@ main {
 }
 /* Imagen de mujer con bitcoins */
 
-/* .main-imagen-container{
- width: 100%;
- height: 910;
+.main-imagen-container {
+  width: 100%;
+  height: 910;
 }
-.main-imagen-container .main-imagen--title{
-    display: flex;
-    
+.main-imagen-container .main-imagen--title {
+  position: absolute;
+  width: 288px;
+  height: 26px;
+  text-align: center;
+  margin-top: 64px;
+  margin-left: 16px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--just-white);
 }
-.main-imagen-container img{
-    width: 100%;
-} */
+.main-imagen-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Ultima seccion, planes */
+.main-plan-container {
+  background-color: var(--just-white);
+  width: 100%;
+  height: 537px;
+  text-align: center;
+}
+.main-plan--title {
+  width: 288px;
+  height: 112px;
+  margin-left: 15px;
+  margin-bottom: 42px;
+}
+.main-plan--title h2 {
+  color: var(--warm-black);
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  margin-top: 64px;
+}
+.main-plan--title p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #757575;
+  margin-top: 24px;
+}
+.main-plan--title .absolute{
+  position: absolute;
+  text-align: center;
+  margin-top: 34px;
+  margin-left: 90px;
+  width: 110px;
+  height: 31px;
+  border-radius: 8px;
+  background-color: var(--bitcoin-orange);
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--just-white);
+  padding: 7px;
+  
+  
+}
+.main-plan-tajeta {
+  margin-left: 65px;
+  margin-top: 26px;
+  width: 190px;
+  height: 247px;
+  background: var(--just-white);
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 8px;
+}
+.main-plan-tajeta .main-plan-tarjeta-title {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-left: calc(50% - 84px);
+  padding-top: 31px;
+}
+.main-plan-99 {
+  width: 65px;
+  height: 56px;
+  font-weight: bold;
+  font-size: 5.2rem;
+  line-height: 6.3rem;
+  letter-spacing: -0.08em;
+  margin-left: 62px;
+  color: #000;
+}
+.main-plan-ahorra {
+  margin: 16px;
+  width: 158px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
+}
+.main-plan-tajeta a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  width: 152px;
+  height: 48px;
+  background-color: var(--off-white);
+  border: 2px solid var(--bitcoin-orange);
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--warm-black);
+}
+.main-plan-tajeta a span {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  display: inline-block;
+  background-image: url("./assets/icons/orange-right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
