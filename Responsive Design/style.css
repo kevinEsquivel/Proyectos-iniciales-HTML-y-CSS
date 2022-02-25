@@ -435,3 +435,27 @@ main {
   background-size: cover;
   background-position: center;
 }
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+.footer-container {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 65px;
+}
+.footer-container .footer-container-p {
+  color: var(--just-white);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 8px;
+}
+.footer-img {
+  display: inline;
+  width: 64px;
+  height: 50px;
+  margin-left: 52px;
+  margin-top: 51px;
+}
