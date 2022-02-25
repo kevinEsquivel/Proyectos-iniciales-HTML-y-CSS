@@ -28,14 +28,14 @@ html {
 
 /* font-family: 'DM Sans', sans-serif;
     font-family: 'Inter', sans-serif; */
-main{
-    width: 100%;
-    height: auto;
-    background-color: var(--off-white);
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
 }
 .main--exchange-container {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -64,92 +64,191 @@ main{
 }
 
 /*SECCION DE TABLAS*/
-.main-currency-table{
-    width: 70%;
-    min-width: 235px;
-    max-width: 500px;
-    height: 360px;
-    margin:48px  auto;
-    font-family: 'Inter', sans-serif;
+.main-currency-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 48px auto;
+  font-family: "Inter", sans-serif;
 }
-.main-currency-table .currency-table--title{
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2.3rem;
-    color: var(--bitcoin-orange);
+.main-currency-table .currency-table--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
 }
-.currency-table--container{
-    width: 90%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 250px;
-    margin: 0 auto;
+.currency-table--container {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
 }
-.currency-table--container table{
-    width: 100%;
-    height: 100%;
+.currency-table--container table {
+  width: 100%;
+  height: 100%;
 }
-.currency-table--container td{
-    width: 50%;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.9rem;
-    color: var(--grey);
-    background-color: var(--just-white);
-    padding-left: 15px;
+.currency-table--container td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--just-white);
+  padding-left: 15px;
+}
+.currency-table--container .table__top-left {
+  border-radius: 15px 0 0 0;
+}
+.currency-table--container .table__top-right {
+  border-radius: 0 15px 0 0;
+}
+.currency-table--container .table__buttom-left {
+  border-radius: 0 0 0 15px;
+}
+.currency-table--container .table__buttom-right {
+  border-radius: 0 0 15px 0;
+}
+.currency-table--container .table__right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
+}
+.currency-table--container .down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  background-image: url("./assets/icons/trending-down.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.currency-table--container .up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  background-image: url("./assets/icons/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.currency-table--date {
+  background-color: var(--soft-orange);
+  width: 173px;
+  height: 31px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 65px;
+  border-radius: 8px;
+}
+.currency-table--date p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  padding: 8px;
+  line-height: 1.5rem;
+}
 
+/* Tarjetas */
+.main-comparacion-container {
+  background-color: var(--warm-black);
+  padding-top: 64px;
+  width: 100%;
+  height: 910px;
+  text-align: center;
 }
-.currency-table--container .table__top-left{
-    border-radius:15px 0 0 0;
+.main-comparacion--title h2 {
+  color: var(--just-white);
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  margin-bottom: 24px;
 }
-.currency-table--container .table__top-right{
-    border-radius:0 15px  0 0;
+.main-comparacion--title p {
+  color: #808080;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 16px;
 }
-.currency-table--container .table__buttom-left{
-    border-radius:0 0 0 15px ;
+.main-comparacion-tarjeta {
+  width: 288px;
+  height: 152px;
+  margin: 16px;
+  background-color: #282623;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  text-align: start;
 }
-.currency-table--container .table__buttom-right{
-    border-radius:0 0 15px 0;
+.main-comparacion-tarjeta span {
+    width: 20px;
+    height: 20px;
+   margin-left: 18px;
+   margin-top: 16px;
 }
-.currency-table--container .table__right{
-    font-size: 1.4rem;
-    font-weight: normal;
-    line-height: 1.7rem;
-    color: #757575;
+.main-comparacion-tarjeta h3 {
+  color: var(--just-white);
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+ margin-top: 12px;
+ margin-left: 16px;
 }
-.currency-table--container .down{
+.main-comparacion-tarjeta p {
+  color: #808080;
+  width: 252px;
+  min-width: 240px;
+  max-width: 400px;
+  margin-top: 10px;
+  margin: 16px auto;
+  height: 54px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.main-comparacion-tarjeta .main-tarjeta-span1 {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 20px;
-    background-image: url("./assets/icons/trending-down.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("./assets/icons/clock.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
-.currency-table--container .up{
+.main-comparacion-tarjeta .main-tarjeta-span2 {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 20px;
-    background-image: url("./assets/icons/trending-up.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("./assets/icons/eye.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.currency-table--date{
-    background-color: var(--soft-orange);
-    width: 173px;
-    height: 31px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 65px;
-    border-radius: 8px;
+.main-comparacion-tarjeta .main-tarjeta-span3 {
+    display: inline-block;
+  background-image: url("./assets/icons/dollar-sign.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.currency-table--date p{
-    font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
-    padding: 8px;
-    line-height: 1.5rem;
+.main-comparacion-tarjeta .main-tarjeta-span4 {
+    display: inline-block;
+  background-image: url("./assets/icons/check-circle.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+/* Imagen de mujer con bitcoins */
+
+/* .main-imagen-container{
+ width: 100%;
+ height: 910;
+}
+.main-imagen-container .main-imagen--title{
+    display: flex;
+    
+}
+.main-imagen-container img{
+    width: 100%;
+} */
